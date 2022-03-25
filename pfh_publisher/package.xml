@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>pfh_publisher</name>
+    <version>0.1.0</version>
+    <description>The pfh_publisher ros2 package</description>
+    <maintainer email="beslin-tony.mathews@informatik.hs-fulda.de">Beslin Tony Mathews</maintainer>
+    <maintainer email="darya.traxel@informatik.hs-fulda.de">Darya Traxel</maintainer>
+
+    <license>TODO</license>
+
+    <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+    <exec_depend>rosidl_default_runtime</exec_depend>
+
+    <export>
+        <build_type>ament_cmake</build_type>
+        <depend>rclcpp</depend>
+        <depend>sensor_msgs</depend>
+        <depend>std_msgs</depend>
+        <depend>OpenCV</depend>
+        <depend>cv_bridge</depend>
+        <depend>image_geometry</depend>
+        <depend>pcl_conversions</depend>
+    </export>
+</package>
