@@ -5,12 +5,13 @@ A gesture recognition system implemented with ROS 2.
 Here are a few details to help you get started on this project quickly.
 
 ### Prerequisites
+The hardware and software requirements are listed below.
 
-### Hardware
+#### Hardware
 * A PC (preferably with a Ubuntu 20.04 LTS installation)
 * Orbbec Astra 3D camera
 
-### Software
+#### Software
 
 * ROS 2 Foxy installed on a Ubuntu Linux Focal Fossa (20.04) 64-bit / x86 / 64-bit / ARM or any other ROS 2 supported machine. You may find more about the installation process from [ROS 2 foxy installation documentation.](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Binary.html)
 * Set up and configure the ROS 2 as required. [Read More](https://docs.ros.org/en/foxy/Tutorials/Configuring-ROS2-Environment.html)
