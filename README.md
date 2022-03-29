@@ -82,10 +82,11 @@ dist = "/home/fdai6135/AstraOpenNI2Drivers/OpenNI-Linux-x64-2.3.0.66/Redist"
 You could map the value to your own ```Redist``` folder of the OpenNI driver.
 
 ##
-In the ```pfh_subscriber``` package, lstm models are moved to the `lib/python3.8/site-packages`
+In the ```pfh_subscriber``` package, lstm models are moved to the `lib/python3.8/site-packages` at the compile time. In the file```pfh_subscriber/setup.py``` you will the following snippet:
 
 ```(python)
 (os.path.join('lib/python3.8/site-packages', package_name, "savedModel"), glob('savedModel/new/*.h5')),
 ````
-You should consider to change the path, if the python version you are using is different.
+
+You should consider changing the path, if the python version you are using is different.
 
